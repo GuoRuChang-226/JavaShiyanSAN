@@ -1,82 +1,82 @@
 package school;
 
 
-import java.util.Scanner;     //Ö÷Òª¹¦ÄÜÊÇ¼ò»¯ÎÄ±¾É¨Ãè¡¢»ñÈ¡¿ØÖÆÌ¨ÊäÈë
+import java.util.Scanner;     //ä¸»è¦åŠŸèƒ½æ˜¯ç®€åŒ–æ–‡æœ¬æ‰«æã€è·å–æ§åˆ¶å°è¾“å…¥
 public class Test{
 	public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        Courses a = null ;      //¶Ôa½øĞĞ³õÊ¼»¯¸³Öµ
-        Student w = new Student(2019310200, "ÕÅÈı", 'M');
-        System.out.println("Ñ§ÉúĞÅÏ¢");
+        Courses a = null ;      //å¯¹aè¿›è¡Œåˆå§‹åŒ–èµ‹å€¼
+        Student w = new Student(2019310196, "å¼ ä¸‰", 'M');
+        System.out.println("å­¦ç”Ÿä¿¡æ¯");
         System.out.println(w);
-        Teacher b = new Teacher(1, "ÖÜ", 'M', "Ä£µç");
-        Teacher c = new Teacher(2, "Îº", 'M', "ÀëÉ¢");
-        Teacher d = new Teacher(3, "Ğì", 'W', "Ïß´ú");
-        System.out.println("½ÌÊ¦ĞÅÏ¢");
+        Teacher b = new Teacher(1, "å‘¨", 'M', "æ¨¡ç”µ");
+        Teacher c = new Teacher(2, "é­", 'M', "ç¦»æ•£");
+        Teacher d = new Teacher(3, "å¾", 'W', "çº¿ä»£");
+        System.out.println("æ•™å¸ˆä¿¡æ¯");
         System.out.println(b);
         System.out.println(c);
         System.out.println(d);
-        Courses e = new Courses("Ä£µç", 7, "207", 2, 2);
-        Courses f = new Courses("ÀëÉ¢", 8, "300", 2, 3);
-        Courses g = new Courses("Ïß´ú", 9, "301", 2, 4);
-        System.out.println("¿Î³ÌĞÅÏ¢");
+        Courses e = new Courses("æ¨¡ç”µ", 7, "207", 2, 2);
+        Courses f = new Courses("ç¦»æ•£", 8, "300", 2, 3);
+        Courses g = new Courses("çº¿ä»£", 9, "301", 2, 4);
+        System.out.println("è¯¾ç¨‹ä¿¡æ¯");
         System.out.println(e);
         System.out.println(f);
         System.out.println(g);
-        System.out.println("ÇëÊäÈë1,2,3½øĞĞÑ¡¿Î: ");
-        int x = in.nextInt();        // Scanner ÀàÀ´»ñÈ¡ÓÃ»§µÄÊäÈë
+        System.out.println("è¯·è¾“å…¥1,2,3è¿›è¡Œé€‰è¯¾: ");
+        int x = in.nextInt();        // Scanner ç±»æ¥è·å–ç”¨æˆ·çš„è¾“å…¥
         if (x == 1) {
             a = e;
-            System.out.println("ÒÑÑ¡¿Î: " + e);
+            System.out.println("å·²é€‰è¯¾: " + e);
             System.out.println(b);
         } else if (x == 2) {
             a = f;
-            System.out.println("ÒÑÑ¡¿Î: " + f);
+            System.out.println("å·²é€‰è¯¾: " + f);
             System.out.println(c);
         } else if (x == 3) {
             a = g;
-            System.out.println("ÒÑÑ¡¿Î: " + g);
+            System.out.println("å·²é€‰è¯¾: " + g);
             System.out.println(d);
         } else {
-            System.out.println("Î´²éµ½¿Î³Ì");
+            System.out.println("æœªæŸ¥åˆ°è¯¾ç¨‹");
         }
 
         System.out.println(w);
-        System.out.println("ÒÑÑ¡¿Î³Ì  "+a);
+        System.out.println("å·²é€‰è¯¾ç¨‹  "+a);
 
 
-        System.out.println("ÇëÊäÈë1,2,3½øĞĞÍË¿Î: ");
+        System.out.println("è¯·è¾“å…¥1,2,3è¿›è¡Œé€€è¯¾: ");
         int y = in.nextInt();
 
-        while (x == 1)      //È·±£Ö»ÄÜÍËÒÑÑ¡¿Î³Ì
+        while (x == 1)      //ç¡®ä¿åªèƒ½é€€å·²é€‰è¯¾ç¨‹
             if (y == 1) {
                 a = e;
-                System.out.println("ÒÑÍË¿Î: " + e);
+                System.out.println("å·²é€€è¯¾: " + e);
                 System.out.println(b);
                 break;
             } else {
-                System.out.println("Î´²éµ½¿Î³Ì");
+                System.out.println("æœªæŸ¥åˆ°è¯¾ç¨‹");
                 break;
             }
         while (x == 2)
             if (y == 2) {
                 a = f;
-                System.out.println("ÒÑÍË¿Î: " + f);
+                System.out.println("å·²é€€è¯¾: " + f);
                 System.out.println(c);
                 break;
             } else {
-                System.out.println("Î´²éµ½¿Î³Ì");
+                System.out.println("æœªæŸ¥åˆ°è¯¾ç¨‹");
                 break;
             }
 
         while (x == 3)
             if (y == 3) {
                 a = g;
-                System.out.println("ÒÑÍË¿Î: " + g);
+                System.out.println("å·²é€€è¯¾: " + g);
                 System.out.println(d);
                 break;
             } else {
-                System.out.println("Î´²éµ½¿Î³Ì");
+                System.out.println("æœªæŸ¥åˆ°è¯¾ç¨‹");
                 break;
             }
     }
