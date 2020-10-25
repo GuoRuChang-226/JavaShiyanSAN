@@ -41,7 +41,7 @@
 
 # 四、流程图
 
-### ![流程图]（https://github.com/GuoRuChang-226/JavaShiyanSAN/blob/main/%E6%B5%81%E7%A8%8B%E5%9B%BEJava.jpg）
+#### ![流程图](https://github.com/GuoRuChang-226/JavaShiyanSAN/blob/main/%E6%B5%81%E7%A8%8B%E5%9B%BEJava.jpg)
 
 # 五、核心代码
 
@@ -84,7 +84,7 @@
 
 # 七、实验结果
 
-#### ![实验结果]（https://github.com/GuoRuChang-226/JavaShiyanSAN/blob/main/61f6fd7f6ea8b281e1cb4a89924d1d7.png）
+#### ![实验结果](https://github.com/GuoRuChang-226/JavaShiyanSAN/blob/main/61f6fd7f6ea8b281e1cb4a89924d1d7.png)
 
 # 八、实验感想
 
