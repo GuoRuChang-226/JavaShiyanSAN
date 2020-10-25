@@ -44,12 +44,48 @@
 
 # 五、核心代码
 
+### 使用tostring（）方法，输出对应的对象的信息。
+
+####    public String toString() {
+
+####        return Coursesname+    "(课程信息)" + "     课程编号：" + number + "   上课地点：" + place
+
+####                + "    课程时间：" + time + "小时" + "     课程学分：" + score + "分";
+
+####    }
+
+### 使用extends继承父类属性
+
+#### public class Student extends Personnel {  //子类
+
+####     public Student(int number, String name, char sex){
+
+####         super(number,name,sex);
+
+####     }
+
+
 
 # 六、实验过程
 
 
+#### 1.思考程序结构，确定父类和子类之间的继承关系，再用extends继承父类的属性。
+
+#### 2.编写父类，再编写子类student和teacher，视情况增加并定义新的属性类型。
+
+#### 3.使用this.关键字区分变量与属性，并传递他们的值。
+
+#### 5.使用scanner获取输入的值。
+
+#### 6.使用if语句和while语句判断选课和退课是否成功，最后用break结束循环。
+
+#### 7.输出所需的信息。
+
 # 七、实验结果
 
+#### ![实验结果]（https://github.com/GuoRuChang-226/JavaShiyanSAN/blob/main/61f6fd7f6ea8b281e1cb4a89924d1d7.png）
 
 # 八、实验感想
+
+#### 这次实验让我认识了如何使用tostring来输出对应对象的信息，对子类和父类之间的继承关系也有了更深的了解，知道了super（）函数是用来继承父类的构造方法的，在此次的编写中不可或缺。通过询问同学获得帮助，回忆起以前使用的if语句和while语句的用法。
 
